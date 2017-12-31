@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://app.onelogin.com/saml/metadata/735440">
+  <IDPSSODescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHTCCAwWgAwIBAgIUBF07go1PBz1QYiiTPXif4Cuzv8swDQYJKoZIhvcNAQEF
+BQAwWjELMAkGA1UEBhMCVVMxEjAQBgNVBAoMCVdhdmVtYWtlcjEVMBMGA1UECwwM
+T25lTG9naW4gSWRQMSAwHgYDVQQDDBdPbmVMb2dpbiBBY2NvdW50IDExNjQ1MjAe
+Fw0xNzEwMjQwNjE5MzVaFw0yMjEwMjUwNjE5MzVaMFoxCzAJBgNVBAYTAlVTMRIw
+EAYDVQQKDAlXYXZlbWFrZXIxFTATBgNVBAsMDE9uZUxvZ2luIElkUDEgMB4GA1UE
+AwwXT25lTG9naW4gQWNjb3VudCAxMTY0NTIwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDGjOMR4fSmpfyl0pP7gqu2r70KkDaQa4xBRMZEFqa1SrU6t1W1
+MheASsmqFuZCuo95mJp2A8TLqM6pplrR9bsLy9C0uHDy1nkXpDKk/q6ouy/IrAet
+5B83oKuNzoS94Z7ZbDMK5XWngQXNj5+0s6hy3GKZwvS8/T6duEW4kbWt608wp6vt
+bhAjMJX419MHnuJLtFYcgxhccnVK+ElvYHJhFfBrbuAU1mcyzjxmH4tv6VMfa/OJ
+IyyQc/6pLDAuCTIAS+GvQOj8KDXUgxF13NGE41SXjgzhK0c+1nq3TM2H5k/5VrJd
+TjJLNx9YeKmiGnKYps3GDqu4kXMp5arBWmEjAgMBAAGjgdowgdcwDAYDVR0TAQH/
+BAIwADAdBgNVHQ4EFgQUoDGdke73Nub8C/r4S1RPWPDXpvcwgZcGA1UdIwSBjzCB
+jIAUoDGdke73Nub8C/r4S1RPWPDXpvehXqRcMFoxCzAJBgNVBAYTAlVTMRIwEAYD
+VQQKDAlXYXZlbWFrZXIxFTATBgNVBAsMDE9uZUxvZ2luIElkUDEgMB4GA1UEAwwX
+T25lTG9naW4gQWNjb3VudCAxMTY0NTKCFARdO4KNTwc9UGIokz14n+Ars7/LMA4G
+A1UdDwEB/wQEAwIHgDANBgkqhkiG9w0BAQUFAAOCAQEAl+yVGCkaV+Nxw6Es+6aV
+LVfElmihzoGO/NUxi3A8ZYaD7+zZ+8gaNhdSjMfPwmhMX+p3sx14StT0uOWOMjXC
+gF+7wjZ1r8QWyyaoQDzIKbrENdhmzY5oQKXBq+FyEG8hEnkNkySN2cxPywDx5ZmM
+BtVhKUGh9r5iWHAjavvabCW4g39nzO6FDrHMskM1alyRjz8r0KrwzQRxPzxYam37
+WfbrFdEr5p1PfQ5AfpaSnYgfxQVEAfwWXBBBqhxHkLCT2PvIHRmoga+cviK5kAZ2
+2ixuHOpVXIvFbO3TaNtx8IclsZwsWr6FnySrmoFzW3OY4kA/MNQapzv5zr5sPW50
+3g==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://wavemakerauth-dev.onelogin.com/trust/saml2/http-redirect/slo/735440"/>
+    
+      <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+    
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://wavemakerauth-dev.onelogin.com/trust/saml2/http-redirect/sso/735440"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wavemakerauth-dev.onelogin.com/trust/saml2/http-post/sso/735440"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://wavemakerauth-dev.onelogin.com/trust/saml2/soap/sso/735440"/>
+  </IDPSSODescriptor>
+</EntityDescriptor>
